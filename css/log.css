@@ -1,0 +1,47 @@
+ .bdg{
+            width: 1046px;
+            height: 100%;
+            margin-top:50px; 
+        }
+.bdg-in{
+    margin: 8% auto;
+    max-width: 668px;
+    margin-left: -18px;
+    position: absolute;
+    top:1px;
+    left:388px;
+    width: 744px;
+    height: 564px;
+}
+.hr{
+    border-bottom:1px solid;
+    margin-top: 27px;
+}
+.tab{
+    margin: 25px 0 25px 0;
+    
+}
+.tab tr{
+    height: 43px;
+    text-align: left;
+}
+.tab td{
+        width: 200px;
+    margin: 10px;
+    text-decoration: none;
+    color: #696B79 !important;
+    font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+}
+.but{
+    width: 200px;
+    margin: 30px 10px 30px 0px;
+    }
+
+.buton{
+      width: 200px;
+    height:45px;
+}

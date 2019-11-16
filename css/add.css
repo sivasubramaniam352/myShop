@@ -1,0 +1,118 @@
+
+*{
+    font-family:'Whitney SSm A', 'Whitney SSm B', Arial;
+}
+.cont-add{margin-top: 20px;}
+.ca-out{
+    width:auto;
+}
+.rad[type=radio] {
+    border: 0px;
+    width: 20px;
+    height: 20px;
+    
+}
+
+.list{
+    color: gray;
+    list-style-type: none;
+    padding: 0;
+    font-size: 14px;
+}
+.set{
+    height:100px;
+    width: 100%;
+    border-top: 1px solid gray;
+    margin: inherit;
+    width:auto;
+    font-size:14px;
+    color: dodgerblue;
+}
+.contSD{
+    height:63px;
+    padding:10px;
+    border: 1px solid #d5d6d9;
+    max-width: 100%;
+}
+.pr-dt{
+    font-weight: 500;
+    padding: 12px 0 10px;
+    color: #424553;
+    border-bottom: 1px solid gray;
+}
+.bg-dt{
+    height:30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.bg-dt-tt{
+    height: 40px;
+    padding-top: 16px;
+}
+.bt{
+    background-color:#ff3f6c; 
+    width: 100%;
+}
+.adRem-bt{
+    border: none;
+    background: #ffffff;
+    color: lightseagreen;
+}
+.aNa{
+    border: 0.5px dotted;
+}
+.aNa:hover{
+    border: 0.5px solid gray;
+    cursor: pointer;
+}
+.inp-cont{
+    height:30px;
+    margin-top: 20px;
+}
+.lab{
+    display: block;
+    position: absolute;
+    margin-bottom: 0px;
+    margin-top: 13px;
+}
+.inp{
+    height: 40px;
+    width: 363px;
+    border:none;
+    border-bottom: 0.5px dotted gray;
+    
+}
+
+
+.user-input-wrp {
+	position: relative;
+	width: 50%;
+}
+.user-input-wrp .inputText{
+	width: 100%;
+	outline: none;
+	border:none;
+	border-bottom: 1px solid #777;
+ 	box-shadow: none !important;
+}
+.user-input-wrp .inputText:focus{
+	border-color: #03a685;
+	border-width: medium medium 2px;
+}
+.user-input-wrp .floating-label {
+    font-size: 13px;
+	position: absolute;
+	pointer-events: none;
+    top: 31px;
+    left: 0px;
+    transition: 0.2s ease all;
+    color: #424553
+}
+.user-input-wrp input:focus ~ .floating-label,
+.user-input-wrp input:not(:focus):valid ~ .floating-label{
+	top: 5px;
+	left: 0px;
+	color:#03a685;
+	opacity: 1;
+}
+    

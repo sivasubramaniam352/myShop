@@ -1,0 +1,96 @@
+
+.wish-or{
+    margin-top: 20px;
+    width: 632px;
+    height: 40px;
+    border: 1px solid #eaeaec;
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+
+.or-off {
+    width: 632px;
+    height: 91px;
+    border: 1px solid #eaeaec;
+    border-left: 3px solid green;
+}
+.van-box{
+    margin-top: 20px;
+    width: 632px;
+    height: 30px;
+    border: 1px solid #eaeaec;
+}
+.van-logo{
+    width: 30px;
+    height: 31px;
+    margin-left: 15px;
+}
+.left-text{
+     width: 632px;
+        margin-top: 20px;
+}
+.right-text{
+    float:right;
+    font-weight: 500;
+}
+.hide{
+    display: none;
+}
+#sM{
+    margin-left: 10px;
+    border: none;
+    background-color: white;
+    height:20px;
+}
+#sL{
+    margin-left: 10px;
+    border: none;
+    background-color: white;
+}
+.or-off2 {
+    width: 632px;
+    height: 171px;
+    border: 1px solid #eaeaec;
+   
+    
+}
+.apply{
+    width: 100px;
+    float: right;
+    background: white;
+    border:1px solid blue;
+    color: blue;
+    border-radius: 5px;
+}
+.button{
+    margin-left: 10px;
+    border: none;
+    background-color: white;
+    height:40px;
+
+}
+#hel{
+    border: 1px solid gray;
+    width: 160px;
+    margin-left: 265px;
+    background: white;
+    z-index: 2;
+}
+#drop-cont{
+    width: 1349px;
+    height: 700px;
+    margin-top: -635px;
+    background-color: black;
+    z-index: 2;
+    opacity: .8;
+}
+.dropDownList{
+    background-color: white;
+    width: 132px;
+    height: 230px;
+    z-index: 3;
+    margin: auto;
+    opacity: 2;
+    margin-top: 300px;
+}
